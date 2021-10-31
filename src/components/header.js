@@ -2,8 +2,8 @@ import React from "react";
 import Nav from "./headerComponents/Nav"
 function Header({currentPage, setCurrentPage}){
     return (
-        <div>
-            <div>
+        <div className="flex-horizontal spaceAround">
+            <div className="width100">
                 <h1>
                     David Clegg
                 </h1>
