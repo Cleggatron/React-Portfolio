@@ -9,52 +9,57 @@ import TeamProfileGenerator from "../../assets/TeamProfileGenerator.png"
 
 function Portfolio(){
     return(
-        <div>
-            <div>
+        <div className="padding1REM flex-horizontal flex-wrap spaceAround alignCenter">
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Five Star Local
                 </h3>
-                <a href="https://vast-journey-10843.herokuapp.com/login" alt="Screenshot of the working page"><img src={FiveStarLocal}/></a>
+                <a className="max-width100" href="https://vast-journey-10843.herokuapp.com/login" ><img src={FiveStarLocal} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: Node, Express, MySQL, Sequelize, Handlebars, Bootstrap</p>
                 <p><a href="https://github.com/Cleggatron/My-5-Star-Local">Github Repo</a></p>
             </div>
-            <div>
+
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Clear Sky
                 </h3>
-                <a href="https://cleggatron.github.io/ClearSky/" alt="Screenshot of the working page"><img src={ClearSky}/></a>
+                <a className="max-width100" href="https://cleggatron.github.io/ClearSky/"><img src={ClearSky} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: HTML, CSS, Javascript, Semantic UI</p>
                 <p><a href="https://github.com/Cleggatron/ClearSky">Github Repo</a></p>
             </div>
-            <div>
+
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Employee Tracker
                 </h3>
-                <a href="https://github.com/Cleggatron/Employee-Tracker" alt="Screenshot of the working page"><img src={EmployeeTracker}/></a>
+                <a className="max-width100" href="https://github.com/Cleggatron/Employee-Tracker"><img src={EmployeeTracker} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: Node, MYSQL, Inquirer.js</p>
                 <p><a href="https://github.com/Cleggatron/Employee-Tracker">Github Repo</a></p>
             </div>
-            <div>
+
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Note Taker
                 </h3>
-                <a href="https://vast-everglades-18367.herokuapp.com/" alt="Screenshot of the working page"><img src={NoteTaker}/></a>
+                <a className="max-width100" href="https://vast-everglades-18367.herokuapp.com/"><img src={NoteTaker} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: Node, Express, uuid.js</p>
                 <p><a href="https://github.com/Cleggatron/Note_Taker">Github Repo</a></p>
             </div>
-            <div>
+
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Random Password Generator
                 </h3>
-                <a href="https://cleggatron.github.io/RandomPasswordGenerator/" alt="Screenshot of the working page"><img src={PasswordGenerator}/></a>
+                <a className="max-width100" href="https://cleggatron.github.io/RandomPasswordGenerator/"><img src={PasswordGenerator} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: HTML, CSS, Javascript</p>
                 <p><a href="https://github.com/Cleggatron/RandomPasswordGenerator">Github Repo</a></p>
             </div>
-            <div>
+
+            <div className="width45 wrap borderBottom">
                 <h3>
                     Team Profile Generator
                 </h3>
-                <a href="https://github.com/Cleggatron/TeamProfileGenerator" alt="Screenshot of the working page"><img src={TeamProfileGenerator}/></a>
+                <a className="max-width100" href="https://github.com/Cleggatron/TeamProfileGenerator"><img src={TeamProfileGenerator} className="max-width100" alt="Screenshot of the working page"/></a>
                 <p>Technologies Used: Node, Inquirer.js, Jest.js</p>
                 <p><a href="https://github.com/Cleggatron/TeamProfileGenerator">Github Repo</a></p>
             </div>

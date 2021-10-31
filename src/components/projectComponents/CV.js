@@ -2,7 +2,7 @@ import React from "react";
 
 function CV(){
     return(
-        <div>
+        <div className="padding1REM borderBottom">
             <h3>My CV is available <a href="https://docs.google.com/document/d/1hl8R90ub-EuJ8e8Myesh4Btm0MNxuAwhIYJBjvghg48/edit?usp=sharing">here</a></h3>
             <br/>
             <h3>Front End Proficiencies:</h3>

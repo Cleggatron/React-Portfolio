@@ -54,7 +54,7 @@ function Contact(){
     }
 
     return(
-        <div>
+        <div className="padding1REM borderBottom">
             <h2> Contact Me:</h2>
             <form>
                 <label>Name:</label>
@@ -90,6 +90,8 @@ function Contact(){
                 type="text"
                 placeholder="Your message here"
                 name="message"
+                rows="10"
+                columns="20"
                 />
                 <br/>
                 <button type="button" onClick={handleFormSubmit}>Submit</button>

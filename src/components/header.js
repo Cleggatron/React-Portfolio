@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./headerComponents/Nav"
 function Header({currentPage, setCurrentPage}){
     return (
-        <div className="flex-horizontal spaceAround">
+        <div className="flex-horizontal spaceAround padding1REM borderBottom">
             <div className="width100">
                 <h1>
                     David Clegg
