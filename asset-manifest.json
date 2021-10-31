@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Cleggatron/react-portfolio/static/css/main.766d21d4.chunk.css",
+    "main.js": "/Cleggatron/react-portfolio/static/js/main.9bafe1fd.chunk.js",
+    "main.js.map": "/Cleggatron/react-portfolio/static/js/main.9bafe1fd.chunk.js.map",
+    "runtime-main.js": "/Cleggatron/react-portfolio/static/js/runtime-main.6ca84a31.js",
+    "runtime-main.js.map": "/Cleggatron/react-portfolio/static/js/runtime-main.6ca84a31.js.map",
+    "static/js/2.0b1d1733.chunk.js": "/Cleggatron/react-portfolio/static/js/2.0b1d1733.chunk.js",
+    "static/js/2.0b1d1733.chunk.js.map": "/Cleggatron/react-portfolio/static/js/2.0b1d1733.chunk.js.map",
+    "index.html": "/Cleggatron/react-portfolio/index.html",
+    "static/css/main.766d21d4.chunk.css.map": "/Cleggatron/react-portfolio/static/css/main.766d21d4.chunk.css.map",
+    "static/js/2.0b1d1733.chunk.js.LICENSE.txt": "/Cleggatron/react-portfolio/static/js/2.0b1d1733.chunk.js.LICENSE.txt",
+    "static/media/ClearSky.9f31509d.png": "/Cleggatron/react-portfolio/static/media/ClearSky.9f31509d.png",
+    "static/media/EmployeeTracker.51c0486d.png": "/Cleggatron/react-portfolio/static/media/EmployeeTracker.51c0486d.png",
+    "static/media/FiveStarLocal.a266e531.png": "/Cleggatron/react-portfolio/static/media/FiveStarLocal.a266e531.png",
+    "static/media/NoteTaker.03948cba.png": "/Cleggatron/react-portfolio/static/media/NoteTaker.03948cba.png",
+    "static/media/PasswordGenerator.5dc9617b.png": "/Cleggatron/react-portfolio/static/media/PasswordGenerator.5dc9617b.png",
+    "static/media/TeamProfileGenerator.2e932e02.png": "/Cleggatron/react-portfolio/static/media/TeamProfileGenerator.2e932e02.png",
+    "static/media/me.f16539bd.jpg": "/Cleggatron/react-portfolio/static/media/me.f16539bd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ca84a31.js",
+    "static/js/2.0b1d1733.chunk.js",
+    "static/css/main.766d21d4.chunk.css",
+    "static/js/main.9bafe1fd.chunk.js"
+  ]
+}
