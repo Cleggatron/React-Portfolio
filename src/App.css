@@ -15,6 +15,18 @@ a{
   text-decoration: none;
 }
 
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1.25rem;
+}
+
 .flex-vertical{
   display: flex;
   flex-direction: column;
@@ -76,6 +88,20 @@ a{
 
 .borderBottom{
   border-bottom: 1px solid;
+}
+
+.darkBackground{
+  background-color: midnightblue;
+  color: aliceblue;
+}
+
+.darkBackground a{
+  color: aliceblue;
+
+}
+
+.lightBackground{
+  background-color: lightcyan;
 }
 
 /* Media Queries for responsive design */

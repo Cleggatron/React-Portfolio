@@ -54,7 +54,7 @@ function Contact(){
     }
 
     return(
-        <div className="padding1REM borderBottom">
+        <div className="padding1REM borderBottom lightBackground">
             <h2> Contact Me:</h2>
             <form>
                 <label>Name:</label>

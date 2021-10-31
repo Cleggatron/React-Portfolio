@@ -3,7 +3,7 @@ import Me from "../../assets/me.jpg"
 
 function AboutMe(){
     return (
-        <div className="width100 flex-vertical alignCenter justifyCenter padding1REM borderBottom">
+        <div className="width100 flex-vertical alignCenter justifyCenter padding1REM borderBottom lightBackground">
             <div className="width50">
                 <img src={Me} alt="A picture of me" className="borderRad25"/>
             </div>

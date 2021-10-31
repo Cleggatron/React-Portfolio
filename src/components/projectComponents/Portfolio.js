@@ -9,7 +9,7 @@ import TeamProfileGenerator from "../../assets/TeamProfileGenerator.png"
 
 function Portfolio(){
     return(
-        <div className="padding1REM flex-horizontal flex-wrap spaceAround alignCenter">
+        <div className="padding1REM flex-horizontal flex-wrap spaceAround alignCenter lightBackground">
             <div className="width45 wrap borderBottom">
                 <h3>
                     Five Star Local
