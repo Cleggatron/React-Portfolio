@@ -91,7 +91,7 @@ function Contact(){
                 placeholder="Your message here"
                 name="message"
                 />
-
+                <br/>
                 <button type="button" onClick={handleFormSubmit}>Submit</button>
             </form>
             {errorMessage && (
