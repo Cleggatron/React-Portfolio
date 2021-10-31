@@ -15,9 +15,18 @@ a{
   text-decoration: none;
 }
 
+.flex-vertical{
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-horizontal{
   display: flex;
   flex-direction:row;
+}
+
+.justifyCenter{
+  justify-content: center;
 }
 
 .alignCenter{
@@ -38,4 +47,13 @@ a{
 
 .width50{
   width: 50%;
+}
+
+.activePage{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.borderRad25{
+  border-radius: 25%;
 }
