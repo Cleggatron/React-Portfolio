@@ -1,7 +1,10 @@
 import React from "react";
 
-function Section () {
 
+function Section () {
+    return(
+        
+    )
 }
 
 export default Section;
