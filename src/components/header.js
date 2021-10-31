@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header(){
+function Header( {currentPage, handlePageChange}){
     return (
         <div>
             <div>
@@ -9,18 +9,43 @@ function Header(){
                 </h1>
             </div>
             <div>
-                <a href="#AboutMe">
-                    About Me
-                </a>
-                <a href="#Portfolio">
-                    Portfolio
-                </a>
-                <a href="#Contact">
-                    Contact
-                </a>
-                <a href="">
-                    CV
-                </a>
+               <ul>
+                   <li>
+                        <a
+                        href="#Home"
+                        onClick={() => handlePageChange("Home")}
+                        className={currentPage === "Home" ? "activePage" : "inactivePage"}
+                        >
+                            About Me
+                        </a>
+                   </li>
+                        <a
+                        href="#CV"
+                        onClick={() => handlePageChange("CV")}
+                        className={currentPage === "CV" ? "activePage" : "inactivePage"}
+                        >
+                            CV
+                        </a>
+                   <li>
+                        <a
+                        href="#Portfolio"
+                        onClick={() => handlePageChange("Portfolio")}
+                        className={currentPage === "Portfolio" ? "activePage" : "inactivePage"}
+                        >
+                            Portfolio
+                        </a>
+                   </li>
+                        <a
+                        href="#Contact"
+                        onClick={() => handlePageChange("Contact")}
+                        className={currentPage === "Contact" ? "activePage" : "inactivePage"}
+                        >
+                            Contact
+                        </a>
+                   <li>
+                       
+                   </li>
+               </ul>
             </div>
         </div>
     )
