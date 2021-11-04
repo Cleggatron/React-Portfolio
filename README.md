@@ -1,7 +1,7 @@
 # React Portfolio
 
-  [Deployed here](https://cleggatron.github.io/react-portfolio/)
-  [Project Repo](https://github.com/Cleggatron/react-portfolio)
+  - [Deployed here](https://cleggatron.github.io/react-portfolio/)
+  - [Project Repo](https://github.com/Cleggatron/react-portfolio)
 
   ## Description
 
