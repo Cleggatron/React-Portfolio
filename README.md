@@ -1,4 +1,4 @@
-# Workout-Tracker
+# React Portfolio
 
   [Project Repo](https://github.com/Cleggatron/react-portfolio)
 
