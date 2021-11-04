@@ -1,5 +1,6 @@
 # React Portfolio
 
+  [Deployed here](https://cleggatron.github.io/react-portfolio/)
   [Project Repo](https://github.com/Cleggatron/react-portfolio)
 
   ## Description
@@ -20,7 +21,7 @@
 
   ## Usage
 
-  ![Project Page](./assets/Screenshot.PNG)
+  ![Project Page](/assets/Screenshot.PNG)
 
   Once the application is running you cna easliy navigate around the site to see my details using the navbar at the top.
 
