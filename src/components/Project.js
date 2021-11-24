@@ -4,8 +4,8 @@ import AboutMe from "./projectComponents/AboutMe";
 import CV from "./projectComponents/CV";
 import Portfolio from "./projectComponents/Portfolio";
 import Contact from "./projectComponents/Contact";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header";
+import Footer from "./footer";
 
 function Project(){
 

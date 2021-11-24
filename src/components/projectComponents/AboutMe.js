@@ -12,7 +12,7 @@ function AboutMe(){
                     About Me:
                 </h2>
                 <p>
-                I am a junior full stack web developer with a background in Resource Planning looking to bring my problem solving skills to the table. I am currently completing a full stack web development bootcamp hosted through the University of Birmingham. I have knowledge and experience of the MERN stack as well as other technolgies MYSQL and the Jest testing library.  
+                I am a junior full stack web developer with a background in Resource Planning looking to bring my forward thinking attitude to the table. I am a passionate problem solver who loves building solutions to tasks, which is what has got me into coding. I am currently completing a full stack web development bootcamp hosted through the University of Birmingham. I have knowledge and experience of the MERN stack as well as other technolgies MYSQL and the Jest testing library.  
                 </p>
             </div>
         </div>

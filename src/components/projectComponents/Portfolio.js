@@ -1,8 +1,8 @@
 import React from "react";
-import FiveStarLocal from "../../assets/FiveStarLocal.png"
-import ClearSky from "../../assets/ClearSky.png"
+import FiveStarLocal from "../../assets/FiveStarLocal.PNG"
+import ClearSky from "../../assets/ClearSky.PNG"
 import EmployeeTracker from "../../assets/EmployeeTracker.png"
-import NoteTaker from "../../assets/NoteTaker.png"
+import NoteTaker from "../../assets/NoteTaker.PNG"
 import PasswordGenerator from "../../assets/PasswordGenerator.png"
 import TeamProfileGenerator from "../../assets/TeamProfileGenerator.png"
 

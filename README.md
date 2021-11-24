@@ -21,7 +21,7 @@
 
   ## Usage
 
-  ![Project Page](/assets/Screenshot.PNG)
+  ![Project Page](./assets/Screenshot.png)
 
   Once the application is running you cna easliy navigate around the site to see my details using the navbar at the top.
 
