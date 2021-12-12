@@ -2,14 +2,14 @@ import React from "react";
 import FiveStarLocal from "../../assets/FiveStarLocal.PNG"
 import ClearSky from "../../assets/ClearSky.PNG"
 import CodeShare from "../../assets/codeShare.PNG"
-import GoogleBooks from "../../assets.GoogleBooks.PNG"
+import GoogleBooks from "../../assets/GoogleBooks.PNG"
 
 function Portfolio() {
     return (
         <div className="padding1REM flex-horizontal flex-wrap spaceAround alignCenter lightBackground">
             <div className="width45 wrap borderBottom">
                 <h3>
-                    Code Sare
+                    Code Share
                 </h3>
                 <a className="max-width100" href="https://mighty-ridge-50767.herokuapp.com/" ><img src={CodeShare} className="max-width100" alt="Screenshot of the working page" /></a>
                 <p>Technologies Used: Node, Express, MongoDB, Mongoose, React, GraphQL, Material UI</p>
