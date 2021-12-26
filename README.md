@@ -23,7 +23,7 @@
 
   ![Project Page](./assets/Screenshot.png)
 
-  Once the application is running you cna easliy navigate around the site to see my details using the navbar at the top.
+  Once the application is running you can easliy navigate around the site to see my details using the navbar at the top.
 
   ## Credits
 
