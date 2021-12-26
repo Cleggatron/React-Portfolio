@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.766d21d4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c9b93534.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c9b93534.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7530632e.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7530632e.js.map",
-    "static/js/2.fbdec405.chunk.js": "/react-portfolio/static/js/2.fbdec405.chunk.js",
-    "static/js/2.fbdec405.chunk.js.map": "/react-portfolio/static/js/2.fbdec405.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.766d21d4.chunk.css.map": "/react-portfolio/static/css/main.766d21d4.chunk.css.map",
-    "static/js/2.fbdec405.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fbdec405.chunk.js.LICENSE.txt",
-    "static/media/BudgetTracker.f98f5a24.PNG": "/react-portfolio/static/media/BudgetTracker.f98f5a24.PNG",
-    "static/media/ClearSky.9f31509d.PNG": "/react-portfolio/static/media/ClearSky.9f31509d.PNG",
-    "static/media/FiveStarLocal.a266e531.PNG": "/react-portfolio/static/media/FiveStarLocal.a266e531.PNG",
-    "static/media/GoogleBooks.ba321126.PNG": "/react-portfolio/static/media/GoogleBooks.ba321126.PNG",
-    "static/media/TechBlog.253f5039.PNG": "/react-portfolio/static/media/TechBlog.253f5039.PNG",
-    "static/media/codeShare.b08f192a.PNG": "/react-portfolio/static/media/codeShare.b08f192a.PNG",
-    "static/media/me.f16539bd.jpg": "/react-portfolio/static/media/me.f16539bd.jpg"
+    "main.css": "/React-Portfolio/static/css/main.766d21d4.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.93e5c9fd.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.93e5c9fd.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7ecb90bb.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.7ecb90bb.js.map",
+    "static/js/2.e4cc9332.chunk.js": "/React-Portfolio/static/js/2.e4cc9332.chunk.js",
+    "static/js/2.e4cc9332.chunk.js.map": "/React-Portfolio/static/js/2.e4cc9332.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.766d21d4.chunk.css.map": "/React-Portfolio/static/css/main.766d21d4.chunk.css.map",
+    "static/js/2.e4cc9332.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e4cc9332.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.f98f5a24.PNG": "/React-Portfolio/static/media/BudgetTracker.f98f5a24.PNG",
+    "static/media/ClearSky.9f31509d.PNG": "/React-Portfolio/static/media/ClearSky.9f31509d.PNG",
+    "static/media/FiveStarLocal.a266e531.PNG": "/React-Portfolio/static/media/FiveStarLocal.a266e531.PNG",
+    "static/media/GoogleBooks.ba321126.PNG": "/React-Portfolio/static/media/GoogleBooks.ba321126.PNG",
+    "static/media/TechBlog.253f5039.PNG": "/React-Portfolio/static/media/TechBlog.253f5039.PNG",
+    "static/media/codeShare.b08f192a.PNG": "/React-Portfolio/static/media/codeShare.b08f192a.PNG",
+    "static/media/me.f16539bd.jpg": "/React-Portfolio/static/media/me.f16539bd.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7530632e.js",
-    "static/js/2.fbdec405.chunk.js",
+    "static/js/runtime-main.7ecb90bb.js",
+    "static/js/2.e4cc9332.chunk.js",
     "static/css/main.766d21d4.chunk.css",
-    "static/js/main.c9b93534.chunk.js"
+    "static/js/main.93e5c9fd.chunk.js"
   ]
 }
