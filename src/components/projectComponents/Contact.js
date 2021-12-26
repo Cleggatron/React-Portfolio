@@ -6,7 +6,7 @@ function Contact(){
         <div className="padding1REM borderBottom lightBackground">
             <h2>You can contact me:</h2>
 
-            <h3>Phone: 07531537845</h3>
+            <h3>Phone: 07531-537-845</h3>
 
             <h3>Email: david.robert.clegg@gmail.com</h3>
 
