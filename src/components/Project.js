@@ -1,10 +1,13 @@
 import React, {useState} from "react"
 
+//import components here
+import Header from "./Header"
+import AboutMe from "./AboutMe"
 
 function Project(){
 
   const [currentPage, setCurrentPage] =  useState("Home")
-
+  /*
   const renderPage = () => {
     if (currentPage === "Home"){
       return <AboutMe/>
@@ -16,12 +19,12 @@ function Project(){
       return <Contact/>
     }
   }
-
+  */
     return (
         <>
           <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-            {renderPage()}
-          <Footer/>
+            {/*{renderPage()}*/}
+            <AboutMe/>
         </>
     )
 }
