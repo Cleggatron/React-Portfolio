@@ -1,11 +1,5 @@
 import React, {useState} from "react"
 
-import AboutMe from "./projectComponents/AboutMe";
-import CV from "./projectComponents/CV";
-import Portfolio from "./projectComponents/Portfolio";
-import Contact from "./projectComponents/Contact";
-import Header from "./header";
-import Footer from "./footer";
 
 function Project(){
 
