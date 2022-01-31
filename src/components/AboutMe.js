@@ -33,34 +33,34 @@ function AboutMe(){
             <p>Full stack web developer with a background in resource planning. This has taught me excellent communication, forward thinking, and workload balancing. Recently completed a Certificate in full stack web development through a bootcamp with the University of Birmingham. I am someone with a passion for learning new skills and applying them to solve new problems. This is something that has been useful in recent group projects where we have leveraged our newly developed skills, along with agile working practises, to create a product with real world application, adhering to the MVC organisational paradigm. Below are some of the technologies I am familiar with.</p>
         </Grid>
         <Grid item xs={12} container rowSpacing={2} columnSpacing={{xs:2, sm: 4, md: 8}}>
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={HTML} className="badge" alt="HTML5 Badge"/>
             </Grid>
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={CSS} className="badge" alt="CSS3 Badge"/>
             </Grid>
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={Javascript} className="badge" alt="Javascript Badge"/>
             </Grid>            
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={Node} className="badge" alt="Node Badge"/>
             </Grid>            
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={ExpressJs} className="badge" alt="Express.js Badge"/>
             </Grid>            
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={ReactJS} className="badge" alt="React Badge"/>
             </Grid>            
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={MongoDB} className="badge" alt="MongoDB Badge"/>
             </Grid>
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={MySQL} className="badge" alt="MySQL Badge"/>
             </Grid>            
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={Git} className="badge" alt="Git Badge"/>
             </Grid>
-            <Grid item xs={4} sm={2} md={1}>
+            <Grid item xs={4} sm={3} md={2}>
                 <img src={Github} className="badge" alt="Github Badge"/>
             </Grid>            
         </Grid>
