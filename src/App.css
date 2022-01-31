@@ -1,5 +1,9 @@
+html{
+    background-color: deepskyblue;
+}
+
 .badge{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     object-fit: contain;
 }
