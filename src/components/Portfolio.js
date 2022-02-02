@@ -15,28 +15,46 @@ import TechBlog from "../assets/TechBlog.PNG"
 
 const steps = [
     { 
-        label: "Test1",
-        picture: BudgetTracker
+        label: "Budget Tracker",
+        picture: BudgetTracker,
+        pictureAlt: "Budget Tracker Screenshot",
+        repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
+        liveLink:"https://protected-eyrie-17990.herokuapp.com/"
     },
     {
         label: "Test2",
-        picture: ClearSky
+        picture: ClearSky,
+        pictureAlt: "Clear Sky Screenshot",
+        repoLink: "https://github.com/Cleggatron/ClearSky",
+        liveLink:"https://cleggatron.github.io/ClearSky/"
     },
     {
         label: "Test3",
-        picture: codeShare
+        picture: codeShare,
+        pictureAlt: "Code Share Screenshot",
+        repoLink: "https://github.com/Cleggatron/code-sharers",
+        liveLink:"https://mighty-ridge-50767.herokuapp.com/"
     },
     {
         label: "Test4",
-        picture: FiveStarLocal
+        picture: FiveStarLocal,
+        pictureAlt: "Five Star Local Screenshot",
+        repoLink: "https://github.com/Cleggatron/My-5-Star-Local",
+        liveLink:"https://vast-journey-10843.herokuapp.com/login"
     },
     {
         label: "Test5",
-        picture: GoogleBooks
+        picture: GoogleBooks,
+        pictureAlt: "Google Books Screenshot",
+        repoLink: "https://github.com/Cleggatron/GoogleBooks-GraphQL-Refactor",
+        liveLink:"https://lit-island-86967.herokuapp.com/"
     },
     {
         label: "Test6",
-        picture: TechBlog
+        picture: TechBlog,
+        pictureAlt: "Tech Blog Screenshot",
+        repoLink: "https://github.com/Cleggatron/Tech-Blog",
+        liveLink:"https://whispering-dawn-83042.herokuapp.com/"
     }
 ];
 
