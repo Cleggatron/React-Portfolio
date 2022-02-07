@@ -21,7 +21,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
         liveLink:"https://protected-eyrie-17990.herokuapp.com/",
         Description: "A budget tracking application that uses indexedDB and caching to provide offline support in the manner of a Progressive Web Application.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MySQL", "Express"]
     },
     {
         label: "ClearSky",
@@ -30,7 +30,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/ClearSky",
         liveLink:"https://cleggatron.github.io/ClearSky/",
         Description: "A site that allows the user to check what astonomical bodies are in the sky, as well as check the weather.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "Javascript"]
     },
     {
         label: "codeShare",
@@ -39,7 +39,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/code-sharers",
         liveLink:"https://mighty-ridge-50767.herokuapp.com/",
         Description: "A social site to allow users to share code fragements and comment on other users' posts.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "MUI", "React", "NodeJS", "GraphQL", "Express"]
     },
     {
         label: "Five Star Local",
@@ -48,7 +48,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/My-5-Star-Local",
         liveLink:"https://vast-journey-10843.herokuapp.com/login",
         Description: "A restaurant posting and review site, using logging technology to track http requests to check site use.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MySQL"]
     },
     {
         label: "Google Book Search",
@@ -57,7 +57,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/GoogleBooks-GraphQL-Refactor",
         liveLink:"https://lit-island-86967.herokuapp.com/",
         Description: "A site that allows users to search for books using a Google API, and save them to the user's favourites.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MongoDB", "GraphQL"]
     },
     {
         label: "Tech Blog",
@@ -139,9 +139,19 @@ function Portfolio(){
         <Box>
             <Typography>{steps[activeStep].label}</Typography>
             <Card>
-                <img src={steps[activeStep].picture}/>
+                <img src={steps[activeStep].picture} alt={steps[activeStep].pictureAlt}/>
             </Card>
             <Typography>Description: {steps[activeStep].Description}</Typography>
+            <Card>
+                {steps[activeStep].keyTechnologies.map((tech) => {
+                    return (
+                        <>
+                            <img src={badges[tech].img} alt={badges[tech].alt}/>
+                        </>
+                    )
+                })}
+            </Card>
+
 
             <MobileStepper
         variant="text"
