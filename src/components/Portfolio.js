@@ -180,7 +180,7 @@ function Portfolio() {
                 }}>
                     {steps[activeStep].keyTechnologies.map((technology) => {
                        return(
-                            <img src={badges[technology].img} alt={badges[technology].alt} className="badge"/>   
+                            <img src={badges[technology].img} alt={badges[technology].alt}/>   
                         )
                     })}
                 </Box>
