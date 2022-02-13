@@ -152,11 +152,10 @@ function Portfolio() {
             alignItems: "center",
             justifyContent: "center",
             width: "100%",
-            backgroundColor: 'primary.dark',
             flexDirection: "column"
             }}>
 
-            <Typography variant="h1">Portfolio</Typography>
+            <h1>Portfolio</h1>
 
             <Paper
             square
@@ -167,9 +166,8 @@ function Portfolio() {
                 alignItems: "center",
                 width: "80%"
             }}>
-                <Typography variant="h2"><Link href={steps[activeStep].liveLink}>{steps[activeStep].label}</Link> | <Link href={steps[activeStep].repoLink}>Repo</Link></Typography>
+                <h2><Link href={steps[activeStep].liveLink}>{steps[activeStep].label}</Link> | <Link href={steps[activeStep].repoLink}>Repo</Link></h2>
                 <Img src={steps[activeStep].picture} alt={steps[activeStep].pictureAlt} className="screenshot"/>
-                <Typography></Typography>
                 <Typography>{steps[activeStep].Description}</Typography>
                 <Typography>My Role: {steps[activeStep].myRole}</Typography>
 
