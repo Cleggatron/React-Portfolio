@@ -6,12 +6,12 @@ import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 import { styled } from "@mui/material/styles"
 
 //images
-import BudgetTracker from "../assets/BudgetTracker.png"
-import ClearSky from "../assets/ClearSky.png"
-import codeShare from "../assets/codeShare.png"
-import FiveStarLocal from "../assets/FiveStarLocal.png"
-import GoogleBooks from "../assets/GoogleBooks.png"
-import TechBlog from "../assets/TechBlog.png"
+import BudgetTracker from "../assets/BudgetTracker.PNG"
+import ClearSky from "../assets/ClearSky.PNG"
+import codeShare from "../assets/codeShare.PNG"
+import FiveStarLocal from "../assets/FiveStarLocal.PNG"
+import GoogleBooks from "../assets/GoogleBooks.PNG"
+import TechBlog from "../assets/TechBlog.PNG"
 
 
 const steps = [
