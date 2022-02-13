@@ -22,7 +22,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
         liveLink: "https://protected-eyrie-17990.herokuapp.com/",
         Description: "A budget tracking application that uses indexedDB and caching to provide offline support in the manner of a Progressive Web Application.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "Express"]
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "Express"],
+        myRole: "Refactor frontend to provide offline support."
     },
     {
         label: "ClearSky",
@@ -31,7 +32,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/ClearSky",
         liveLink: "https://cleggatron.github.io/ClearSky/",
         Description: "A site that allows the user to check what astonomical bodies are in the sky, as well as check the weather.",
-        keyTechnologies: ["HTML", "CSS", "Javascript"]
+        keyTechnologies: ["HTML", "CSS", "Javascript"],
+        myRole: "Write Javascript to build elements, and create the search history using local storage."
     },
     {
         label: "codeShare",
@@ -40,7 +42,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/code-sharers",
         liveLink: "https://mighty-ridge-50767.herokuapp.com/",
         Description: "A social site to allow users to share code fragements and comment on other users' posts.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "MUI", "React", "NodeJS", "GraphQL", "Express"]
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "MUI", "React", "NodeJS", "GraphQL", "Express"],
+        myRole: "Build front and back end GraphQL queries, typedefs, and resolvers. Build some React components. Assist with styling implementation."
     },
     {
         label: "Five Star Local",
@@ -49,7 +52,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/My-5-Star-Local",
         liveLink: "https://vast-journey-10843.herokuapp.com/login",
         Description: "A restaurant posting and review site, using logging technology to track http requests to check site use.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MySQL"]
+        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MySQL"],
+        myRole: "Build handlebars for templating engine. Build parts of the database schema, and some queries."
     },
     {
         label: "Google Book Search",
@@ -58,7 +62,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/GoogleBooks-GraphQL-Refactor",
         liveLink: "https://lit-island-86967.herokuapp.com/",
         Description: "A site that allows users to search for books using a Google API, and save them to the user's favourites.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MongoDB", "GraphQL"]
+        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MongoDB", "GraphQL"],
+        myRole: "Refactor front and back end to use GraphQL for data queries and mutations."
     },
     {
         label: "Tech Blog",
@@ -67,7 +72,8 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/Tech-Blog",
         liveLink: "https://whispering-dawn-83042.herokuapp.com/",
         Description: "A full stack blogging website.",
-        keyTechnologies: []
+        keyTechnologies: ["HTML", "CSS", "NodeJS", "Express", "MySQL" ],
+        myRole: "Sole creator of all aspects of the site."
     }
 ];
 
@@ -135,7 +141,7 @@ function Portfolio() {
 
     const handleBack = () => {
         setActiveStep((prevActiveStep) => {
-            return (prevActiveStep === 0) ? 0 : prevActiveStep - 1
+            return (prevActiveStep === 0) ? maxSteps - 1 : prevActiveStep - 1
         })
     }
 
@@ -146,7 +152,6 @@ function Portfolio() {
             alignItems: "center",
             justifyContent: "center",
             width: "100%",
-            height: "90%",
             backgroundColor: 'primary.dark',
             flexDirection: "column"
             }}>
@@ -160,11 +165,10 @@ function Portfolio() {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                width: "80%",
-                height: "80%"
+                width: "80%"
             }}>
                 <Typography variant="h2"><Link href={steps[activeStep].liveLink}>{steps[activeStep].label}</Link> | <Link href={steps[activeStep].repoLink}>Repo</Link></Typography>
-                <Img src={steps[activeStep].picture} alt={steps[activeStep].pictureAlt}/>
+                <Img src={steps[activeStep].picture} alt={steps[activeStep].pictureAlt} className="screenshot"/>
                 <Typography></Typography>
                 <Typography>{steps[activeStep].Description}</Typography>
                 <Typography>My Role: {steps[activeStep].myRole}</Typography>
@@ -191,7 +195,7 @@ function Portfolio() {
                 nextButton={
                     <Button
                     size="small"
-                    onclick={handleNext}
+                    onClick={handleNext}
                     >
                         Next
                         <KeyboardArrowRight/>
@@ -199,9 +203,9 @@ function Portfolio() {
                 backButton={
                     <Button
                     size="small"
-                    onclick={handleBack}
+                    onClick={handleBack}
                     >
-                        Next
+                        Back
                         <KeyboardArrowLeft/>
                     </Button>
                 }/>
