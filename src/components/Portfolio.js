@@ -22,7 +22,7 @@ const steps = [
         repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
         liveLink: "https://protected-eyrie-17990.herokuapp.com/",
         Description: "A budget tracking application that uses indexedDB and caching to provide offline support in the manner of a Progressive Web Application.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "MySQL", "Express"]
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "Express"]
     },
     {
         label: "ClearSky",
@@ -147,8 +147,11 @@ function Portfolio() {
             justifyContent: "center",
             width: "100%",
             height: "90%",
-            backgroundColor: 'primary.dark'
+            backgroundColor: 'primary.dark',
+            flexDirection: "column"
             }}>
+
+            <Typography variant="h1">Portfolio</Typography>
 
             <Paper
             square
@@ -178,8 +181,30 @@ function Portfolio() {
                             <img src={badges[technology].img} alt={badges[technology].alt} className="badge"/>   
                         )
                     })}
-
                 </Box>
+
+                <MobileStepper
+                variant="text"
+                steps={maxSteps}
+                position="static"
+                activeStep={activeStep}
+                nextButton={
+                    <Button
+                    size="small"
+                    onclick={handleNext}
+                    >
+                        Next
+                        <KeyboardArrowRight/>
+                    </Button>}
+                backButton={
+                    <Button
+                    size="small"
+                    onclick={handleBack}
+                    >
+                        Next
+                        <KeyboardArrowLeft/>
+                    </Button>
+                }/>
 
             </Paper>
 
