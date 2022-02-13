@@ -1,121 +1,69 @@
-.App {
-  text-align: center;
-}
-
-ul {
-  margin:0;
-  padding: 0;
-}
-
-li{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
+body{
+    background-color: cornflowerblue;
 }
 
 h1{
-  font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 h2{
-  font-size: 1.5rem;
+    font-size: 1.25rem;
+    text-align: center;
 }
 
-h3{
-  font-size: 1.25rem;
+p{
+    text-align: center;
+    padding: 1%;
 }
 
-.flex-vertical{
-  display: flex;
-  flex-direction: column;
+.App{
+    height: 100%;
 }
 
-.flex-horizontal{
-  display: flex;
-  flex-direction:row;
-}
-
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
-.justifyCenter{
-  justify-content: center;
-}
-
-.alignCenter{
-  align-items:center ;
-}
-
-.spaceAround{
-  justify-content: space-around;
-}
-
-.spaceBetween{
-  justify-content: space-between;
-}
-
-.width100{
-  width: 100%;
-}
-
-.max-width100{
-  max-width: 100%;
-}
-
-.width50{
-  width: 50%;
-}
-
-.width45{
-  width: 45%;
-}
-
-.activePage{
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.borderRad25{
-  border-radius: 25%;
-}
-
-.padding1REM{
-  padding: 1rem;
-}
-
-.borderBottom{
-  border-bottom: 1px solid;
-}
-
-.darkBackground{
-  background-color: midnightblue;
-  color: aliceblue;
-}
-
-.darkBackground a{
-  color: aliceblue;
-
-}
-
-.lightBackground{
-  background-color: lightcyan;
-}
-
-/* Media Queries for responsive design */
-
-@media screen and (max-width: 700px) {
-
-  .width45, .width50{
-    width: 95%;
-  }
-
-  .flex-horizontal{
-    flex-direction: column;
+.Header {
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    
-  }
-  
+    background-color: rgb(4, 4, 141);
+}
+
+.Header a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.screenshot{
+    max-width: 100%;
+    height: auto;
+}
+
+.badge{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+}
+
+.headshot{
+    object-fit: scale-down;
+}
+
+.contactHeader{
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.card{
+    border-bottom: 5px white solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    text-decoration: underline;
 }
