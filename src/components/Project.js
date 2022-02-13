@@ -4,6 +4,7 @@ import React, {useState} from "react"
 import Header from "./Header"
 import AboutMe from "./AboutMe"
 import Portfolio from "./Portfolio"
+import Contact from "./Contact"
 
 function Project(){
 
@@ -25,7 +26,7 @@ function Project(){
         <>
           <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
             {/*{renderPage()}*/}
-            <Portfolio/>
+            <Contact/>
         </>
     )
 }
