@@ -17,7 +17,7 @@ function Header ({currentPage, setCurrentPage}) {
                 onClick={() => setCurrentPage("Contact")}
             >Contact
             </Link>
-            <Link href="#CV">
+            <Link href="https://drive.google.com/uc?export=download&id=12qJAnQR4K95eHKvLNCPsZ2HNtq1ZOZWN">
                 CV
             </Link>
         </nav>
