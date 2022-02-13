@@ -4,7 +4,7 @@ import {Link} from "@mui/material"
 function Header ({currentPage, setCurrentPage}) {
 
     return (
-        <nav>
+        <nav className="Header">
             <Link href="#AboutMe"
                 onClick={() => setCurrentPage("AboutMe")}
             >AboutMe
