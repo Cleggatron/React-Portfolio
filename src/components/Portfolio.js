@@ -16,26 +16,6 @@ import TechBlog from "../assets/TechBlog.png"
 
 const steps = [
     {
-        label: "Budget Tracker",
-        picture: BudgetTracker,
-        pictureAlt: "Budget Tracker Screenshot",
-        repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
-        liveLink: "https://protected-eyrie-17990.herokuapp.com/",
-        Description: "A budget tracking application that uses indexedDB and caching to provide offline support in the manner of a Progressive Web Application.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "Express"],
-        myRole: "Refactor frontend to provide offline support."
-    },
-    {
-        label: "ClearSky",
-        picture: ClearSky,
-        pictureAlt: "Clear Sky Screenshot",
-        repoLink: "https://github.com/Cleggatron/ClearSky",
-        liveLink: "https://cleggatron.github.io/ClearSky/",
-        Description: "A site that allows the user to check what astonomical bodies are in the sky, as well as check the weather.",
-        keyTechnologies: ["HTML", "CSS", "Javascript"],
-        myRole: "Write Javascript to build elements, and create the search history using local storage."
-    },
-    {
         label: "codeShare",
         picture: codeShare,
         pictureAlt: "Code Share Screenshot",
@@ -46,14 +26,14 @@ const steps = [
         myRole: "Build front and back end GraphQL queries, typedefs, and resolvers. Build some React components. Assist with styling implementation."
     },
     {
-        label: "Five Star Local",
-        picture: FiveStarLocal,
-        pictureAlt: "Five Star Local Screenshot",
-        repoLink: "https://github.com/Cleggatron/My-5-Star-Local",
-        liveLink: "https://vast-journey-10843.herokuapp.com/login",
-        Description: "A restaurant posting and review site, using logging technology to track http requests to check site use.",
-        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MySQL"],
-        myRole: "Build handlebars for templating engine. Build parts of the database schema, and some queries."
+        label: "Budget Tracker",
+        picture: BudgetTracker,
+        pictureAlt: "Budget Tracker Screenshot",
+        repoLink: "https://github.com/Cleggatron/Track-Your-Budget",
+        liveLink: "https://protected-eyrie-17990.herokuapp.com/",
+        Description: "A budget tracking application that uses indexedDB and caching to provide offline support in the manner of a Progressive Web Application.",
+        keyTechnologies: ["HTML", "CSS", "Javascript", "MongoDB", "Express"],
+        myRole: "Refactor frontend to provide offline support."
     },
     {
         label: "Google Book Search",
@@ -66,6 +46,16 @@ const steps = [
         myRole: "Refactor front and back end to use GraphQL for data queries and mutations."
     },
     {
+        label: "Five Star Local",
+        picture: FiveStarLocal,
+        pictureAlt: "Five Star Local Screenshot",
+        repoLink: "https://github.com/Cleggatron/My-5-Star-Local",
+        liveLink: "https://vast-journey-10843.herokuapp.com/login",
+        Description: "A restaurant posting and review site, using logging technology to track http requests to check site use.",
+        keyTechnologies: ["HTML", "CSS", "Javascript", "Express", "MySQL"],
+        myRole: "Build handlebars for templating engine. Build parts of the database schema, and some queries."
+    },
+    {
         label: "Tech Blog",
         picture: TechBlog,
         pictureAlt: "Tech Blog Screenshot",
@@ -74,7 +64,17 @@ const steps = [
         Description: "A full stack blogging website.",
         keyTechnologies: ["HTML", "CSS", "NodeJS", "Express", "MySQL" ],
         myRole: "Sole creator of all aspects of the site."
-    }
+    },
+    {
+        label: "ClearSky",
+        picture: ClearSky,
+        pictureAlt: "Clear Sky Screenshot",
+        repoLink: "https://github.com/Cleggatron/ClearSky",
+        liveLink: "https://cleggatron.github.io/ClearSky/",
+        Description: "A site that allows the user to check what astonomical bodies are in the sky, as well as check the weather.",
+        keyTechnologies: ["HTML", "CSS", "Javascript"],
+        myRole: "Write Javascript to build elements, and create the search history using local storage."
+    },
 ];
 
 const badges = {
@@ -203,8 +203,9 @@ function Portfolio() {
                     size="small"
                     onClick={handleBack}
                     >
-                        Back
                         <KeyboardArrowLeft/>
+                        Back
+                        
                     </Button>
                 }/>
 

@@ -7,7 +7,7 @@ import { Box } from "@mui/material";
 function Contact() {
   return (
     <>
-      <h1>Contact me at:</h1>
+      <h1 className="contactHeader">Contact me at:</h1>
       <Box
         sx={{
           width: "100%",
@@ -15,7 +15,7 @@ function Contact() {
           flexDirection: "row",
           flexWrap: "wrap",
           justifyContent: "space-evenly",
-          alignItems: "center"
+          alignItems: "center",   
         }}>
         <Box
           className="card"
