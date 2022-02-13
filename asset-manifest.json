@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.16bf9545.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.e42c9d2c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.e42c9d2c.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.56d19661.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.56d19661.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.7ecb90bb.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.7ecb90bb.js.map",
     "static/js/2.a04872d4.chunk.js": "/React-Portfolio/static/js/2.a04872d4.chunk.js",
@@ -10,13 +10,13 @@
     "index.html": "/React-Portfolio/index.html",
     "static/css/main.16bf9545.chunk.css.map": "/React-Portfolio/static/css/main.16bf9545.chunk.css.map",
     "static/js/2.a04872d4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.a04872d4.chunk.js.LICENSE.txt",
-    "static/media/BudgetTracker.26f9af49.png": "/React-Portfolio/static/media/BudgetTracker.26f9af49.png",
-    "static/media/ClearSky.2a538351.png": "/React-Portfolio/static/media/ClearSky.2a538351.png",
-    "static/media/FiveStarLocal.f93485d3.png": "/React-Portfolio/static/media/FiveStarLocal.f93485d3.png",
-    "static/media/GoogleBooks.b3edccf0.png": "/React-Portfolio/static/media/GoogleBooks.b3edccf0.png",
+    "static/media/BudgetTracker.26f9af49.PNG": "/React-Portfolio/static/media/BudgetTracker.26f9af49.PNG",
+    "static/media/ClearSky.2a538351.PNG": "/React-Portfolio/static/media/ClearSky.2a538351.PNG",
+    "static/media/FiveStarLocal.f93485d3.PNG": "/React-Portfolio/static/media/FiveStarLocal.f93485d3.PNG",
+    "static/media/GoogleBooks.b3edccf0.PNG": "/React-Portfolio/static/media/GoogleBooks.b3edccf0.PNG",
     "static/media/NodeJs.03d8e258.png": "/React-Portfolio/static/media/NodeJs.03d8e258.png",
-    "static/media/TechBlog.8603a401.png": "/React-Portfolio/static/media/TechBlog.8603a401.png",
-    "static/media/codeShare.c7d878b2.png": "/React-Portfolio/static/media/codeShare.c7d878b2.png",
+    "static/media/TechBlog.8603a401.PNG": "/React-Portfolio/static/media/TechBlog.8603a401.PNG",
+    "static/media/codeShare.c7d878b2.PNG": "/React-Portfolio/static/media/codeShare.c7d878b2.PNG",
     "static/media/css3.68ba79f5.png": "/React-Portfolio/static/media/css3.68ba79f5.png",
     "static/media/expressjs.967f19e5.png": "/React-Portfolio/static/media/expressjs.967f19e5.png",
     "static/media/github.6854f304.png": "/React-Portfolio/static/media/github.6854f304.png",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.7ecb90bb.js",
     "static/js/2.a04872d4.chunk.js",
     "static/css/main.16bf9545.chunk.css",
-    "static/js/main.e42c9d2c.chunk.js"
+    "static/js/main.56d19661.chunk.js"
   ]
 }
