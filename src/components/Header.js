@@ -6,7 +6,7 @@ function Header ({currentPage, setCurrentPage}) {
     return (
         <nav className="Header">
             <Link href="#AboutMe"
-                onClick={() => setCurrentPage("AboutMe")}
+                onClick={() => setCurrentPage("Home")}
             >AboutMe
             </Link>
             <Link href="#Portfolio"
